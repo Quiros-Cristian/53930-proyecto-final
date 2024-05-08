@@ -1,0 +1,42 @@
+/*  reset de estilos */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* estilos globales */
+
+.filtro{
+    display: none;
+}
+
+.bg-claro{
+    background-color: whitesmoke;
+    color: black;
+
+    input{
+        color: black;
+    }
+}
+
+.bg-oscuro{
+    background-color: rgb(21, 21, 21);
+    color: beige;
+    
+    aside{
+        border: 1px solid white;
+
+        
+    }
+
+    .modo_oscuro{
+        background-color: white;
+        color: black;
+    }
+}
+
+body{
+    text-align: center;
+    height: 100vh;
+}

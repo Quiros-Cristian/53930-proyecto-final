@@ -1,0 +1,18 @@
+/* estilos header */
+
+#cabecera {
+    height: 11vh;
+    
+    nav{
+        height: 11vh;
+        display: flex;
+        justify-content: space-between;
+
+        div{
+            .titulo{
+                font-size: 2rem;
+                color: black;
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+/* estilos principal */
+
+.imagen_logo {
+    height: 14vh;
+    background-image: url(../assets/img/logos.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+#padre {
+    display: flex;
+}
+
+aside {
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    .modo_oscuro{
+        margin-top: 15px;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        background-color: rgb(31, 31, 31);
+    }
+
+    input{
+        font-size: 1.1rem;
+        background-color: transparent;
+        color: white;
+        border: 0px;
+        display: flex;
+        text-align: start;
+        padding-left: 20px;
+    }
+}
+
+#articulos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.card {
+    margin: 10px 0px 10px 0px;
+    .card-body{
+        p{
+            margin-bottom: 0.5rem;
+        }
+    }
+}
+

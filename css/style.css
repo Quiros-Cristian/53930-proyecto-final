@@ -1,0 +1,152 @@
+/*  reset de estilos */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* estilos globales */
+.filtro {
+  display: none;
+}
+
+.bg-claro {
+  background-color: whitesmoke;
+  color: black;
+}
+.bg-claro input {
+  color: black;
+}
+
+.bg-oscuro {
+  background-color: rgb(21, 21, 21);
+  color: beige;
+}
+.bg-oscuro aside {
+  border: 1px solid white;
+}
+.bg-oscuro .modo_oscuro {
+  background-color: white;
+  color: black;
+}
+
+body {
+  text-align: center;
+  height: 100vh;
+}
+
+/*  dropdown */
+.dropdown-menu p {
+  text-align: center;
+}
+
+/* estilos header */
+#cabecera {
+  height: 11vh;
+}
+#cabecera nav {
+  height: 11vh;
+  display: flex;
+  justify-content: space-between;
+}
+#cabecera nav div .titulo {
+  font-size: 2rem;
+  color: black;
+}
+
+/* estilos principal */
+.imagen_logo {
+  height: 14vh;
+  background-image: url(../assets/img/logos.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+#padre {
+  display: flex;
+}
+
+aside {
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+aside .modo_oscuro {
+  margin-top: 15px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(31, 31, 31);
+}
+aside input {
+  font-size: 1.1rem;
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  display: flex;
+  text-align: start;
+  padding-left: 20px;
+}
+
+#articulos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  margin: 10px 0px 10px 0px;
+}
+.card .card-body p {
+  margin-bottom: 0.5rem;
+}
+
+/* estilos footer */
+footer {
+  height: 25vh;
+  background-color: black;
+}
+footer .redes_sociales {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 40px;
+}
+footer .redes_sociales div .icon_redes {
+  width: 30px;
+  height: 30px;
+}
+footer .redes_sociales div a {
+  text-decoration: none;
+  color: white;
+}
+footer hr {
+  position: relative;
+  top: 130px;
+  color: white;
+}
+footer div p {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+  top: 125px;
+}
+
+/*  jquerys */
+@media screen and (max-width: 1500px) {
+  #titulo {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  #padre {
+    padding: 0px 50px 0px 50px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
