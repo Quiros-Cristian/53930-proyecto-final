@@ -97,7 +97,6 @@ function render_ropa(data) {
 
         botonCarrito.addEventListener('click', () => {
 
-            carritoVacio = 0
 
             li.remove();
             p.remove();
@@ -133,7 +132,7 @@ function render_ropa(data) {
 
             vaciarCarrito.querySelector('.remove').addEventListener('click', () => {
                 carritoVacio = 0;
-
+                contador = 0;
                 li.remove();
                 p.remove();
                 botonCarrito.remove();
@@ -141,6 +140,9 @@ function render_ropa(data) {
             })
 
             vaciarCarrito.querySelector('.botonComprar').addEventListener('click', () => {
+                
+                contador = 0;
+
                 if (carritoVacio >= 1) {
 
                     carritoVacio = 0;
