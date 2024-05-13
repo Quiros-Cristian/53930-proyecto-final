@@ -1,40 +1,55 @@
 [
     {
+        "stock": 1,
         "prenda": "Nike SB",
-        "talle": "S M L XL",
+        "talleUno": "S",  
+        "talleDos": "M",  
+        "talleTres": "L", 
         "precio": 63.999,
         "color": "Blanco",
         "imagen": "./assets/img/remeranike.jpg",
         "tipo": "Remeras"
     },
     {
+        "stock": 1,
         "prenda": "Pantalón Reebok Vector",
-        "talle": "40, 42, 44",
+        "talleUno": "40",
+        "talleDos": "42",
+        "talleTres": "44",
         "precio": 49.599,
         "color": "Negro",
         "imagen": "./assets/img/pantalonreebok.jpg",
         "tipo": "Pantalones"
     },
     {
+        "stock": 1,
         "prenda": "Air Jordan 1 Mid",
-        "talle": "38, 40, 42, 44",
+        "talleUno": "40",
+        "talleDos":"42",
+        "talleTres":"44",
         "precio": 229.999,
         "color": "Blanco y Azul",
         "imagen": "./assets/img/zapatillasnike.jpg",
         "tipo": "Zapatillas"
     },
     {
+        "stock": 1,
         "tipo": "Camperas",
         "prenda": "ROMPEVIENTO HYPERREAL",
-        "talle": "S M L XL",
+        "talleUno": "S",
+        "talleDos":"M",
+        "talleTres":"L",
         "precio": 184.999,
         "color": "Negro",
         "imagen": "./assets/img/camperaadidas.jpg"
     },
     {
+        "stock": 1,
         "tipo": "Buzos",
         "prenda": "Buzo Nike Sportswear",
-        "talle": "S M L XL",
+        "talleUno": "S",
+        "talleDos":"M",
+        "talleTres":"L",
         "precio": 101.499,
         "color": "Negro",
         "imagen": "./assets/img/buzonikemujer.jpg"
@@ -42,7 +57,9 @@
     {
         "tipo": "Zapatillas",
         "prenda": "Nike Calm",
-        "talle": "38, 40, 42, 44",
+        "talleUno": "40",
+        "talleDos":"42",
+        "talleTres":"44",
         "precio": 85.999,
         "color": "Negro",
         "imagen": "./assets/img/sandaliasnike.jpg"
@@ -50,7 +67,9 @@
     {
         "tipo": "Remeras",
         "prenda": "Nike Sportswear",
-        "talle": "XS S M L",
+        "talleUno": "S",
+        "talleDos":"M",
+        "talleTres":"L",
         "precio": 48.799,
         "color": "Blanco",
         "imagen": "./assets/img/remeranikemujer.jpg"
@@ -58,7 +77,9 @@
     {
         "tipo": "Camperas",
         "prenda": "CAMISA ESSENTIALS",
-        "talle": "S M L XL",
+        "talleUno": "S",
+        "talleDos":"M",
+        "talleTres":"L",
         "precio": 144.999,
         "color": "Jean",
         "imagen": "./assets/img/camisaadidas.jpg"
@@ -66,7 +87,9 @@
     {
         "tipo": "Camperas",
         "prenda": "COACH JACKET",
-        "talle": "S M L XL",
+        "talleUno": "S",
+        "talleDos":"M",
+        "talleTres":"L",
         "precio": 132.999,
         "color": "Negro y Blanco",
         "imagen": "./assets/img/coachjacket.jpg"
@@ -74,7 +97,9 @@
     {
         "tipo": "Zapatillas",
         "prenda": "Zapatillas Puma Classic",
-        "talle": "36, 37, 38, 39",
+        "talleUno": "40",
+        "talleDos":"42",
+        "talleTres":"44",
         "precio": 107.999,
         "color": "Beige",
         "imagen": "./assets/img/zapatillaspuma.jpg"
